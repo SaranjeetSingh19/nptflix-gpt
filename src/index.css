@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'netflix-font';
+    src: url('C:\Users\Guru nanak\OneDrive\Desktop\netflix-gpt\src\components\utils\NetflixSans_W_Rg.ttf') format('woff2')
+  }
+
+ *{
+    font-family: 'netflix-font', 'Roboto'
+  }
+  
