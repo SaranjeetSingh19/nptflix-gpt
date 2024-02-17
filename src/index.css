@@ -12,3 +12,26 @@
     font-family: 'netflix-font', 'Roboto'
   }
   
+
+  /* Change track background color */
+::-webkit-scrollbar {
+  /* background-color: #f5f5f5; */
+  opacity: 0;
+}
+
+/* Change thumb background color */
+::-webkit-scrollbar-thumb {
+  /* background-color: #dadada; */
+  opacity: 0;
+}
+
+/* Add rounded corners to thumb */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+/* Darken thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background-color: #ccc; */
+  opacity: 0;
+}
