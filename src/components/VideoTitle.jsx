@@ -15,7 +15,7 @@ const VideoTitle = ({ title, overview }) => {
         ⓘ {lang[langKey].infoButton}
         </button>
       </div>
-      <div className="bg-gradient-to-r mt-40 text-black opacity-0 from-transparent">.</div>
+      {/* <div className="bg-gradient-to-r mt-40 text-black opacity-0 from-transparent">.</div> */}
     </div>
   );
 };
